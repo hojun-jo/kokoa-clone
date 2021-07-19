@@ -81,10 +81,17 @@
   display: flex;
   align-items: flex-end;
 }
+.message__not-read,
 .message__time {
-  opacity: 0.8;
   font-size: 13px;
   margin: 0px 5px;
+}
+.message__time {
+  opacity: 0.8;
+}
+.message__not-read__time {
+  display: flex;
+  flex-direction: column;
 }
 
 .message-row--own {
